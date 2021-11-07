@@ -1,0 +1,14 @@
+{
+  "name": "Notion-Anki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ankan5415/Notion-Anki.git",
+  "author": "Ankur Boyed <ankur.boyed@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@notionhq/client": "^0.4.6"
+  }
+}
