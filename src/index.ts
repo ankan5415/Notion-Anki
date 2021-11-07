@@ -1,3 +1,8 @@
-import side from "./side";
-const test = () => "hello world! ";
-export default test;
+require("dotenv").config();
+import listAllUsers from "./notion";
+
+if (!process.env.NOTION_TOKEN) {
+  console.log("No Notion credentials found");
+}
+
+listAllUsers();
